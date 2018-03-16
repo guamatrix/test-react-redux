@@ -11,8 +11,6 @@ import { saveState } from './localStorage'
 import '../node_modules/bulma/css/bulma.css'
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 
-import './index.css';
-
 store.subscribe(throttle(() => {
   saveState({
     persons: store.getState().persons
