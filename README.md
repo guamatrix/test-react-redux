@@ -11,10 +11,12 @@ You can find the most recent version of this guide [here](https://github.com/fac
 * npm install
 * npm start
 
-## For create bundle, create minified fiel
+## For create bundle, create minified file
 
 * npm run build
 
-## You can test the bundle fiel in your local machine
+## You can test the bundle file in your local machine
 
-* npm 
+* npm install -g serve
+* serve -s build
+
