@@ -15,3 +15,6 @@
 * npm install -g serve
 * serve -s build
 
+## URL for test heroku app
+* https://test-react-intive-fdv.herokuapp.com/
+
