@@ -1,0 +1,3 @@
+export const SELECT_PERSON = 'SELECT_PERSON'
+export const SAVE_PERSON = 'SAVE_PERSON'
+export const GET_COUNTRIES = 'GET_COUNTRIES'

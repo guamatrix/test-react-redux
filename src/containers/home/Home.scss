@@ -1,0 +1,110 @@
+@import "../app/variables.scss";
+
+.home-app {
+  padding-top: $paddign-home;
+
+  .list-person {
+    padding: 0px;
+    border: 1px solid $border-list-person;
+  }
+}
+
+table {
+
+  thead {
+
+    tr {
+      :first-child {
+        width: 40%
+      }
+
+      :nth-child(2) {
+        width: 40%;
+      }
+
+      :last-child {
+        width: 20%;
+      }
+    }
+  }
+
+  tbody {
+
+    tr {
+      cursor: pointer;
+    }
+  }
+}
+
+div.author {
+  padding-top: $padding-half;
+}
+
+div.box-body {
+  flex: 6;
+  overflow: auto;
+  height: $height-body;
+}
+
+.form-inline {
+  padding-bottom: $padding;
+
+  div:not(:last-child) {
+    padding-bottom: $padding;
+  }
+
+  div.button-content {
+    padding: $padding-half 0 $padding-half 0;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (min-width: 769px) {
+      justify-content: flex-end;
+    }
+  }
+
+  button {
+    width: $size-button;
+  }
+}
+
+div.input-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .label {
+    min-width: 6.5rem;
+    margin-bottom: 0px;
+  }
+
+  .field {
+    width: 10rem;
+
+    @media screen and (min-width: 321px) {
+      width: 12rem;
+    }
+
+    @media screen and (min-width: 455px) {
+      width: 100%;
+    }
+  }
+
+  div.select {
+    max-width: 100%;
+
+    @media (min-width: 455px) and (max-width: 768px) {
+      max-width: 295px;
+    }
+
+    @media (min-width: 769px) and (max-width: 965px) {
+      max-width: 250px;
+    }
+  }
+}
+
+div.notification {
+  @media (min-width: 769px) and (max-width: 957px) {
+    padding: 0.4rem;
+  }
+}
