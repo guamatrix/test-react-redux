@@ -18,3 +18,5 @@
 ## URL for test heroku app
 * https://test-react-intive-fdv.herokuapp.com/
 
+
+## Added Dockerfile if you want to deploy as a docker image
